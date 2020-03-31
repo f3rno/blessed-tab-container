@@ -1,0 +1,5 @@
+.undodir
+node_modules
+package-lock.json
+Session.vim
+tags

@@ -1,0 +1,50 @@
+{
+  "name": "blessed-tab-container",
+  "version": "1.0.0",
+  "description": "A CLI Multi-Tab Container Utilizing Labels For Blessed",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint lib/ index.js",
+    "docs": "rm -rf docs && node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3rno/blessed-tab-container.git"
+  },
+  "keywords": [
+    "blessed",
+    "cli",
+    "ascii",
+    "dashboard",
+    "ui",
+    "terminal"
+  ],
+  "author": "Cris Mihalache <me@f3rno.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f3rno/blessed-tab-container/issues"
+  },
+  "homepage": "https://github.com/f3rno/blessed-tab-container#readme",
+  "devDependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.19",
+    "colors": "^1.4.0",
+    "docdash": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^22.1.0",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jsdoc": "^3.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
